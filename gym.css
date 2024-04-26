@@ -1,0 +1,117 @@
+body{
+    background-image: url('img/dumbbell.jpeg');
+    background-size: cover;
+}
+
+header h1{
+    color: black;
+    margin: 0px;
+}
+
+header h1 span{
+    font-weight: bold;
+    color: rgb(171, 167, 167);
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin : 0px 10px;
+    color: grey;
+}
+
+nav ul li a[href='home.html']{
+    color: white;
+    border : 2px solid red;
+    background-color: red;
+}
+
+header{
+    position : relative;
+    border : 2px solid white;
+    background-color: aliceblue;
+}
+nav{
+    position: absolute;
+    top : -5px;
+    right : 10px;
+    margin: 0px;
+}
+
+h2{
+    color: white;
+}
+
+h2 span{
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+p span{
+    display: block;
+    color: rgb(196, 148, 148);
+}
+
+button{
+    border: 2px solid rgb(111, 16, 16);
+    background-color: rgb(111, 16, 16);
+    color: white;
+    font-size: 1.1em;
+    margin: 10px 0px;
+}
+
+.icons{
+    position: relative;
+    right: 50px;
+}
+.icons li{
+    display: inline;
+}
+
+.icons li a{
+    text-decoration: none;
+    margin: 0px 10px;
+    color: white;
+    border: 2px solid rgb(111, 16, 16);
+    background-color: rgb(111, 16, 16);
+    border-radius:10px;
+}
+
+.main{
+    max-width: 400px;
+    margin: 100px auto;
+    font-size: 1.3em;
+    border: 2px solid cadetblue;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: cadetblue;
+}
+
+footer{
+    display: inline-block;
+    /* max-width: 400px;
+    margin: auto; */
+    position: relative;
+    left: 700px;
+    background-color: cadetblue;
+    font-size: 1.2em;
+}
+
+footer p{
+    margin: 0px;
+    padding: 10px;
+}
+
+footer span{
+    font-weight: bold;
+}
+
